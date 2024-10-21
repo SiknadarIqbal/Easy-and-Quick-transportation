@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transportation Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#book">BOOK</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>EASY & QUICK TRANSPORTATION</h1>
+            <a href="#book" class="book-now">Book Now</a>
+        </div>
+    </section>
+    <section class="image-section">
+        <div class="bus">
+            <img class="busbg" src="./bus.png" alt="bus">
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section id="book" class="booking">
+        <h2>Book Your Ride</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="sikandar iqbal" required>
+
+            <label for="email">Gmail Address:</label>
+            <input type="email" id="email" name="email" value="mian1234@gmail.com" required>
+
+            <label for="cnic">CNIC Number:</label>
+            <input type="text" id="cnic" name="cnic" value="15402-1828282882-1" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" value="8(999)-000-00-00" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
